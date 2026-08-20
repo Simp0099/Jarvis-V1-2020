@@ -28,7 +28,7 @@ def wishMe():
         say(random.choice(a))   
 
     elif hour>=12 and hour<18:
-        b = "Good Afternoon Boss!" , "Whats Up Boss!" , "I'm Here Boss" , "welcome Back Boss !" , "BhelCome Back Boss!" "How was your day boss!"
+        b = "Good Afternoon Boss!" , "Whats Up Boss!" , "I'm Here Boss" , "welcome Back Boss !" , "How was your day boss!"
         say(random.choice(b))   
 
     else:
@@ -130,11 +130,11 @@ def Music():
         speak("Tell Me The Name of The Song!")
         musicName = takeCommand()
 
-        if 'akeli' in musicName:
-            os.startfile('E:\\Songs\\akeli.mp3')
+        if 'songs_name' in musicName:
+            os.startfile('Songs_path')
 
-        elif 'Bhola Parvat ka' in musicName:
-            os.startfile('D:\\Songs\\Bhola Parvat Ka.mp3')
+        elif 'Song_name' in musicName:
+            os.startfile('song_path')
 
         speak("Your Song Has Been Started! , Enjoy Boss!")
 
@@ -185,21 +185,7 @@ if __name__ == "__main__":
             break
 
         elif 'what are you doing' in query:
-            speak("Nothing Just At Your Service Boss !")
-
-        elif 'wanna go for a drink' in query:
-            speak("Sure!  why not")
-            speak("i'll Buy the whole stall !")  
-
-        elif 'say the magic words' in query:
-            speak("Yes  Daddy !")
-
-        elif 'I am sad' in query:
-            speak("Who did that to my boss! Hello John Wick !")
-
-        elif 'Tik Tok' in query: 
-            ("Tiktok Tatti Hai") 
- 
+            speak("Nothing Just At Your Service Boss !" 
         elif 'open youtube' in query:
            webbrowser.open("https://www.youtube.com/?reload=9")
 
