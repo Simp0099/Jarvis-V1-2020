@@ -324,19 +324,6 @@ if __name__ == "__main__":
                 print(e)
                 speak("Sorry Boss I am not able to send this Email") 
 
-         
-        elif 'email to mom' in query:
-            try:
-                speak("Boss What should I say?")
-                content = takeCommand()
-                speak("What is mom's email address?")
-                to = takeCommand()
-                sendEmail(to, content)
-                speak("Email has been sent!")
-            except Exception as e:
-                print(e)
-                speak("Sorry Boss I am not able to send this Email")   
-
         elif 'joke' in query:
             get = pyjokes.get_joke()
             speak(get)
@@ -354,22 +341,19 @@ if __name__ == "__main__":
             speak("Showing You The Results Boss!")
         
         
-        #elif  'google search' in query:
-         #   import wikipedia as googleScrap
-          #  query = query.replace("Friday","")
-           # query = query.replace("google search","")
-            #query = query.replace("google","")
-            #speak ("This what i found on Web !")
-            #pywhatkit.search(query)
+        elif 'google search' in query:
+            import wikipedia as googleScrap
+            query = query.replace("Friday","")
+            query = query.replace("google search","")
             
-            
-           # try:
-            #    result = googleScrap.summary(query,3)
-             #   speak(results)
+            try:
 
-            #except:
-            #    speak("Boss There Is No Data Available")    
-            
+                result = googleScrap.summary(query, 3)
+
+                speak(result)
+                
+            except:
+                speak("Boss There Is No Data Available")
 
 
         elif 'how to' in query:
