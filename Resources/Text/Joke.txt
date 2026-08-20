@@ -1,5 +1,0 @@
-Joke :- Source Code .
-
-        elif 'joke' in query:
-            get = pyjokes.get_joke()
-            Speak(get)

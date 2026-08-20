@@ -1,9 +1,0 @@
-Youtube Search "- Source Code .
-
-        elif 'Friday youtube search' in query:
-            Speak("OK Sir , This Is What I found For Your Search!")
-            query = query.replace("Friday","")
-            query = query.replace("youtube search","")
-            web = 'https://www.youtube.com/results?search_query=' + query
-            webbrowser.open(web)
-            Speak("Showing You the results Boss!")
