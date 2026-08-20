@@ -1,0 +1,106 @@
+# Environment variables - NEVER commit secrets
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+.AppleDouble
+.LSOverride
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+jarvis_memory.db
+
+# Local config
+config_local.py
+config.py
+
+# Credentials (if any)
+*credentials.json
+*secrets.json
+*oauth*.json
+
+# Generated/temp files
+*.tmp
+*.temp
+*.cache
+*.bak
+~*
+
+# Screenshots stored locally (these are huge)
+ScreenShot Database/*.png
+ScreenShot Database/*.jpg
+
+# Database files
+*_Database/
+
+# IDE project files
+.project
+.pydevproject
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Testing
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Poetry
+poetry.lock
+pyproject.toml
+
+# Personal notes
+notes.md
+TODO.md
+PERSONAL/
