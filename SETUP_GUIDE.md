@@ -85,7 +85,7 @@ When you see `"Listening..."` the assistant is active.
 
 ## Next: Modernize
 
-Once this is working, see `MODERNIZATION_GUIDE.pdf` for how to upgrade to an LLM-powered version that:
+Once this is working, see [MODERNIZATION_GUIDE.pdf](Modernization_Guide.pdf) for how to upgrade to an LLM-powered version that:
 - Understands natural language
 - Remembers conversation history
 - Scales to unlimited commands
