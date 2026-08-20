@@ -59,18 +59,18 @@ This is pre-LLM technology, with expected trade-offs:
    cd jarvis
    ```
 
-2. Create virtual environment and install dependencies
-   ```bash
-   python -m venv venv
+2. Create Virtual Environment and Install Dependencies
+** Create the virtual environment**
+`python -m venv venv`
 
-      Macos :
-      source venv/bin/activate
-   
-      Windows: 
-      venv\Scripts\activate
+** Activate the virtual environment**
+* **macOS / Linux:**
+  `source venv/bin/activate`
+* **Windows:**
+  `venv\Scripts\activate`
 
-   pip install -r requirements.txt
-   ```
+** Install the dependencies**
+`pip install -r requirements.txt`
 
 3. Configure environment variables
    ```bash
