@@ -63,10 +63,11 @@ This is pre-LLM technology, with expected trade-offs:
    ```bash
    python -m venv venv
 
-   Mac Os :
-   source venv/bin/activate   
-   Windows: 
-   venv\Scripts\activate
+      Macos :
+      source venv/bin/activate
+   
+      Windows: 
+      venv\Scripts\activate
 
    pip install -r requirements.txt
    ```
@@ -147,7 +148,7 @@ Want to see the modern version? Check **[jarvis-ai](https://github.com/Simp0099/
 | **Memory** | None | Full conversation history |
 | **Intent** | String patterns | LLM understanding |
 
-**To modernize your instance:** Follow the 6-phase roadmap in `MODERNIZATION_GUIDE.pdf`.
+**To modernize your instance:** Follow the 6-phase roadmap in [MODERNIZATION_GUIDE.pdf](MODERNIZATION_GUIDE.pdf).
 
 ## License
 
