@@ -148,7 +148,7 @@ Want to see the modern version? Check **[jarvis-ai](https://github.com/Simp0099/
 | **Memory** | None | Full conversation history |
 | **Intent** | String patterns | LLM understanding |
 
-**To modernize your instance:** Follow the 6-phase roadmap in [MODERNIZATION_GUIDE.pdf](MODERNIZATION_GUIDE.pdf).
+**To modernize your instance:** Follow the 6-phase roadmap in [MODERNIZATION_GUIDE.pdf](Modernization_Guide.pdf).
 
 ## License
 
